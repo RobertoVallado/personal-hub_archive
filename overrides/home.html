@@ -1,4 +1,10 @@
 {% extends "main.html" %}
+
+{% block extrahead %}
+  {{ super() }}
+  <link rel="preload" as="image" href="{{ 'assets/images/germany-unsplash.jpg' | url }}">
+{% endblock %}
+
     {% block content %}
 
     <section class="hero">

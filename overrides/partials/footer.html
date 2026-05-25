@@ -12,7 +12,7 @@
 
       <!-- Center: Copyright -->
       <div class="custom-footer__center">
-        © &ensp;<span id="year" class="custom-footer__year"></span> &ensp;- Roberto Vallado
+        © &ensp;<span id="year" class="custom-footer__year">{{ current_year }}</span> &ensp;- Roberto Vallado
       </div>
 
       <!-- Right: Social Icons -->
@@ -26,11 +26,4 @@
       </div>
   </div>
 
-  <script>
-    document.addEventListener("DOMContentLoaded", function() {
-      // Set current year
-      const yearSpan = document.getElementById("year");
-      if (yearSpan) yearSpan.textContent = new Date().getFullYear();
-    });
-  </script>
 </footer>

@@ -1,6 +1,11 @@
 from textwrap import dedent
+from datetime import datetime
 import urllib.parse
 import re
+
+def on_env(env, **kwargs):
+    env.globals["current_year"] = datetime.now().year
+
 
 x_intent = "https://twitter.com/intent/tweet"
 fb_sharer = "https://www.facebook.com/sharer/sharer.php"
