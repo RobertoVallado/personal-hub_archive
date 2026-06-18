@@ -57,7 +57,7 @@ I have a better understanding of how XSS scenarios happened and what they look l
 
 ### **Educate Yourself About Phishing Tactics**
 Learn how phishing attacks work and recognize the tricks attackers use.  
-And seriously — **read IT emails addressed to you**. They matter.
+And seriously, **read IT emails addressed to you**. They matter.
 
 ### **Use Strong, Unique Passwords**
 Strong, unique passwords reduce the risk of account compromise, even if some information is leaked.

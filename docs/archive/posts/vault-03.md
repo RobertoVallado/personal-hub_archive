@@ -121,7 +121,7 @@ From there, the attacker submitted the payload directly into the edit field.
 #
 ![screenshot](../images/image-01.png)
 #
-Once submitted, the information was **safely saved on the server**, and retrieval resulted in automatic execution when rendered by the browser — the core behavior of **Stored XSS**.
+Once submitted, the information was **safely saved on the server**, and retrieval resulted in automatic execution when rendered by the browser. That is the core behavior of **Stored XSS**.
 #
 ![screenshot](../images/image-02.png)
 #

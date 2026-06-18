@@ -23,7 +23,7 @@ As developers, we are responsible for the following:
 
 - Write clean, understandable, and maintainable code.  
 - Make code that speaks for itself. *(AKA: no comments)*  
-- Name things properly — **variables good, vague names bad.**
+- Name things properly: **variables good, vague names bad.**
 
 But we are only human; despite what many might think, we all make mistakes. Those mistakes show up as issues during an application's usage.  
 **The dreaded bugs!**  
@@ -66,7 +66,7 @@ Ask questions, take initiative, and bring security concerns to the table.
 Use helpful but **non-revealing** error messages.  
 Attackers love detailed errors; keep them general.
 
-Error codes and structured failures are great for debugging and user experience — just avoid exposing sensitive info.
+Error codes and structured failures are great for debugging and user experience. Just avoid exposing sensitive info.
 
 ---
 
@@ -76,7 +76,7 @@ Bugs will always be there.
 Our job is to **identify and contain them early** in the application lifecycle.
 
 >Take a moment to consider the task at hand.  
->Stay alert and security-focused — it only takes a few minutes.
+>Stay alert and security-focused. It only takes a few minutes.
 
 **Happy bug-hunting!**
 
